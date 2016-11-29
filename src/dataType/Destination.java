@@ -13,4 +13,8 @@ public class Destination {
     voteCount = 0;
   }
   
+  private void resetCount(){
+   voteCount = 0; 
+  }
+  
 }
