@@ -5,7 +5,7 @@ public class PollInfo {
   
   private void resetPollResults(){
     for(int i = 0; i<destinationArray.length(); i++){
-      destinationArray[i].count = 0;
+      destinationArray[i].resetCount();
     }
   }
   
