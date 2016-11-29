@@ -14,7 +14,11 @@ public class Destination {
   }
   
   private void resetCount(){
-   voteCount = 0; 
+    voteCount = 0; 
+  }
+  
+  private void increaseVoteCount(){
+    voteCount++;
   }
   
 }
